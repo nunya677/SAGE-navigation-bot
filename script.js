@@ -1,5 +1,5 @@
 // 🌍 Initialize Mapbox
-mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';  // Replace with your token
+mapboxgl.accessToken = 'pk.eyJ1IjoiY2VsaW5kYXNtb20iLCJhIjoiY21kOWVsMzZzMDcxYTJrcGtkdnphb3B5dCJ9.rVcMC4nhnuQn6etaftnxzg';  // Replace with your token
 const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/streets-v11',
@@ -21,7 +21,7 @@ function speakText(text) {
 
 // 🗺️ Get Directions from MapQuest
 async function getDirections(origin, destination) {
-  const mqKey = 'YOUR_MAPQUEST_API_KEY';  // Replace with your key
+  const mqKey = 'xKjATB0fvCZhlcB7qCrz4cvIDNBGYSgY';  // Replace with your key
   const url = `https://www.mapquestapi.com/directions/v2/route?key=${mqKey}&from=${origin}&to=${destination}&routeType=fastest&unit=k`;
 
   try {
